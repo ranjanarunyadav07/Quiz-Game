@@ -1,0 +1,195 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.header {
+display: flex;
+flex-direction: row;
+height: 12%;
+width: 100%;
+background-color:black;
+align-items: center;
+color: azure;
+}
+.logo {
+  margin-right: 700px;
+  }
+.btn {
+  margin-left: 20px;
+  cursor: pointer;
+  border: none;
+  background-color:black;
+  color: white;
+}
+.btn :hover{
+  background-color: brown;
+  color: black;
+}
+.bg {
+  /* The image used */
+  background-image: url("img/images.jpeg");
+
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+
+}
+.start {
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+.flex-center {
+  margin-left:  600px;
+  margin-top: 200px;
+}
+.start-box  {
+  margin-left:  500px;
+  margin-right: 200px;
+  margin-top: opx;
+}
+.btn1 {
+  margin-left: 120px;
+  margin-top: 30px;
+  width: 200px;
+  height: 45px;
+  font-size: larger;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+.welcome {
+  height: 100%;
+  width: 50%;
+  background-color: rgb(85, 7, 7);
+}
+.login {
+  height: 100%;
+  width: 50%;
+  background-color: rgb(84, 83, 83);
+}
+.wel2 {
+  margin-top: 100px;
+  margin-left: 150px;
+  color: white;
+  font-size: 40px;
+}
+.p1 {
+  margin-left: 110px;
+  width: 400px;
+  color: white;
+}
+.login1 {
+  color: white;
+  margin-top:60px;
+  margin-left: 150px;
+}
+.user {
+color: white;
+margin-top: 10px;
+margin-bottom: 0px;
+margin-left:100px ;
+width: 300px;
+}
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 10px;
+box-sizing: border-box;
+}
+.submit {
+margin-top: 10px;
+margin-left:210px ;
+}
+.btn3 {
+width: 100px;
+height: 30px;
+border: none;
+border-radius: 10px;
+color: white;
+background-color: black;
+cursor: pointer;
+}
+.create {
+margin-top: 0px;
+margin-left: 230px;
+font-size: smaller;
+color: white;
+}
+.user1 {
+color: white;
+margin-top: 20px;
+margin-left:100px ;
+width: 300px;
+}
+.check {
+color:white;
+font-size: 150px;
+background-color:rgb(84, 83, 83);
+border-radius: 100px;
+}
+.check1 {
+margin-top: 100px;
+margin-left: 250px;
+}
+.Sumit {
+margin-top: 0px;
+margin-left: 150px;
+color: white;
+}
+.checkbuttton {
+margin-top: 0px;
+margin-left: 260px;
+}
+.btn4{
+  background: white;
+  color: black;
+  font-weight: 500;
+  width: 60%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 20px;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+  .btn4:hover:not([disabled]){
+  background: black;
+  color: white;
+ }
+ .btn4:disabled {
+  cursor:no-drop;
+ }
+  #next-btn{
+  background: black;
+  color: white;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+  }
+.correct {
+  background-color: rgb(101, 227, 101);
+} 
+.incorrect {
+  background-color: lightcoral;
+}
+
